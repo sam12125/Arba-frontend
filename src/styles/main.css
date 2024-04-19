@@ -1,0 +1,58 @@
+.terms-condition-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  max-width: 500px; /* Adjust max-width as needed */
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dialog-content {
+  text-align: center;
+}
+
+.product-table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* main.css */
+.product-table,
+.category-table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td,
+.category-table th,
+.category-table td {
+  border: 1px solid lightgrey;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th,
+.category-table th {
+  background-color: #f2f2f2;
+}
+
+.product-table img,
+.category-table img {
+  max-width: 100px;
+  max-height: 100px;
+}
