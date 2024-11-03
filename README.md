@@ -5,7 +5,7 @@ npm i
 npm start
 
 # Deployed link(frontend);
-https://6623837cba35a7acf52e4527--phenomenal-choux-d781f1.netlify.app/
+https://verdant-ganache-77441c.netlify.app/
 
 # User should register first(a pop up will came on successful register)
 # After registration user can log in by entering their Email & password(a pop up will came on successful login)
