@@ -27,7 +27,7 @@ function CrudCategories() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://arba-dev-backend-1.onrender.com/api/categories"
+        "https://arba-dev-backend.onrender.com/api/categories"
       );
       setCategories(response.data);
       setLoading(false);
@@ -49,7 +49,7 @@ function CrudCategories() {
     e.preventDefault();
     try {
       await axios.post(
-        "https://arba-dev-backend-1.onrender.com/api/categories",
+        "https://arba-dev-backend.onrender.com/api/categories",
         newCategory
       );
       setCategories([...categories, newCategory]);
@@ -77,7 +77,7 @@ function CrudCategories() {
     try {
       const updatedCategory = { ...category, ...editedCategory };
       await axios.patch(
-        `https://arba-dev-backend-1.onrender.com/api/categories/${category._id}`,
+        `https://arba-dev-backend.onrender.com/api/categories/${category._id}`,
         updatedCategory
       );
       const updatedCategories = categories.map((c) =>
