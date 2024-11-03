@@ -28,7 +28,7 @@ function CrudProducts() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://arba-dev-backend-1.onrender.com/api/products"
+        "https://arba-dev-backend.onrender.com/api/products"
       );
       setProducts(response.data);
       setLoading(false);
@@ -50,7 +50,7 @@ function CrudProducts() {
     e.preventDefault();
     try {
       await axios.post(
-        "https://arba-dev-backend-1.onrender.com/api/products",
+        "https://arba-dev-backend.onrender.com/api/products",
         newProduct
       );
       setProducts([...products, newProduct]);
