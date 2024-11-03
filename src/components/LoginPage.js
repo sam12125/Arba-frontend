@@ -19,7 +19,7 @@ const LoginPage = () => {
     try {
       // Send login request to backend API
       const response = await fetch(
-        "https://arba-dev-backend-1.onrender.com/auth/login",
+        "https://arba-dev-backend.onrender.com/auth/login",
         {
           method: "POST",
           headers: {
