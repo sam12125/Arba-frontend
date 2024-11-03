@@ -22,7 +22,7 @@ function ProfilePage() {
       try {
         // Make API request to fetch all user data
         const response = await axios.get(
-          "https://arba-dev-backend-1.onrender.com/auth/data"
+          "https://arba-dev-backend.onrender.com/auth/data"
         );
         console.log(response.data);
 
