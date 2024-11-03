@@ -28,7 +28,7 @@ const RegisterPage = () => {
     }
     try {
       const response = await fetch(
-        "https://arba-dev-backend-1.onrender.com/auth/register",
+        "https://arba-dev-backend.onrender.com/auth/register",
         {
           method: "POST",
           headers: {
