@@ -6,7 +6,7 @@ import Imageslider from "./Imageslider";
 import "../styles/main.css";
 import { Check } from "./AppContext";
 
-// https://arba-dev-backend-1.onrender.com/
+// https://arba-dev-backend.onrender.com
 
 function HomePage() {
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ function HomePage() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://arba-dev-backend-1.onrender.com/api/products"
+          "https://arba-dev-backend.onrender.com/api/products"
         );
         setProducts(response.data);
         console.log(response.data);
